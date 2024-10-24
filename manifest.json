@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2.0,
+    "id": "insights",
+    "type": "widget",
+    "name": "Insights Dashboard",
+    "namespace": "InsightsNamespace",
+    "version": "1.0",
+    "author": "ccaceresoln",
+    "description": "Modulo Insights para Zabbix, basado en mejoras al repositorio de Monzphere.",
+    "widget": {
+        "js_class": "WidgetInsightsJs",
+        "view":"class.widget"
+    },
+    "assets": {
+        "js": ["class.widget.php.js"]
+    },
+    "homepage": "ccaceresoln.com",
+    "support": {
+        "email": "soporte@ccaceresoln.com",
+        "url": "https://ccaceresoln.com"
+    }
+}
