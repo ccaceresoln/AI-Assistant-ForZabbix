@@ -82,7 +82,7 @@ class WidgetInsightsJs extends CWidget {
             const prompt = this._getPromptForAnalysisType(analysisType);
 
             console.log("Sending captured image to Gemini API...");
-            const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR_API_KEY', {
+            const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
